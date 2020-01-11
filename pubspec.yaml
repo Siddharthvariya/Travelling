@@ -1,0 +1,33 @@
+name: my_app
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  font_awesome_flutter: ^8.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:     
+  - assets/images/images1.jpg
+  - assets/images/images2.jpg
+  - assets/images/images3.jpg
+  - assets/images/images4.jpg
+  - assets/images/images5.jpg
+  fonts:
+    - family: Karla
+      fonts:
+        - asset: assets/font/Karla-Regular.ttf
+        - asset: assets/font/Karla-Italic.ttf
+          weight: 400
+          style: italic
+ 
+  uses-material-design: true
